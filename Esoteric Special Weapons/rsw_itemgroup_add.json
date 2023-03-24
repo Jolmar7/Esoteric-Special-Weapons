@@ -1,0 +1,243 @@
+[
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common",
+    "//": "Rifles commonly owned by citizens and found in many locations.",
+    "items": [
+      { "item": "rsw_m1_carbine", "prob": 40, "charges-min": 0, "charges-max": 15 },
+      { "item": "rsw_m2_carbine", "prob": 10, "charges-min": 0, "charges-max": 15 },
+      { "item": "rem_remingtoneight", "prob": 10, "charges-min": 0, "charges-max": 8 },
+      { "item": "rsw_ar7", "prob": 10, "charges-min": 0, "charges-max": 8 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_display",
+    "//": "Empty rifles commonly found in gun stores.",
+    "items": [
+      { "item": "rsw_m1_carbine", "prob": 30, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_m2_carbine", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "rem_remingtoneight", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_ar7", "prob": 10, "charges-min": 0, "charges-max": 0 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_rifle_common",
+    "//": "Factory specification rifle magazines commonly owned by citizens.",
+    "items": [
+      [ "rsw_m1mag_15", 20 ],
+      [ "rsw_m1mag_30", 10 ],
+      [ "rem_eightclip", 4 ],
+      [ "rsw_ar7mag8", 4 ],
+      [ "rsw_ar7mag10", 3 ],
+      [ "rsw_ar7mag15", 4 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_rare",
+    "//": "Less common rifles including those only used by police/paramilitary forces.",
+    "items": [
+      { "item": "rsw_65arisaka", "prob": 10, "charges-min": 0, "charges-max": 5 },
+      { "item": "rsw_65carbine", "prob": 5, "charges-min": 0, "charges-max": 5 },
+      { "item": "rsw_77arisaka", "prob": 5, "charges-min": 0, "charges-max": 5 },
+      { "item": "rsw_howa64", "prob": 10, "charges-min": 0, "charges-max": 20 },
+      { "item": "rsw_howa89", "prob": 5, "charges-min": 0, "charges-max": 30 },
+      { "item": "rsw_trwrifle", "prob": 10, "charges-min": 0, "charges-max": 30 },
+      { "item": "rsw_rivtech_g11", "prob": 10, "charges-min": 0, "charges-max": 45 },
+      { "item": "amg_ema_rifle", "prob": 10, "charges-min": 0, "charges-max": 20 },
+      { "item": "rsw_gyrojetrifle", "prob": 10, "charges-min": 0, "charges-max": 6 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_rare_display",
+    "//": "Less common rifles found exclusively in gun stores.",
+    "items": [
+      { "item": "rsw_65arisaka", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_65carbine", "prob": 5, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_77arisaka", "prob": 5, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_howa64", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_howa89", "prob": 5, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_trwrifle", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_rivtech_g11", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "amg_ema_rifle", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_gyrojetrifle", "prob": 15, "charges-min": 0, "charges-max": 0 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_rifle_rare",
+    "//": "Aftermarket or otherwise uncommon rifle magazines excluding milspec.",
+    "items": [
+      [ "rsw_65mm_clip", 3 ],
+      [ "rsw_77mm_clip", 3 ],
+      [ "rsw_howamag", 10 ],
+      [ "rsw__g11mag", 4 ],
+      [ "amg_ema_mag20", 10 ],
+      [ "rsw_stgmag30", 10 ],
+      [ "rsw_stgmag10", 5 ],
+      [ "rsw_ringrifle_cylinder8", 5 ],
+      [ "rsw_ringrifle_cylinder8", 3 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_obscure",
+    "//": "Imported or otherwise very obscure rifles.",
+    "items": [
+      { "item": "rsw_stg44", "prob": 25, "charges-min": 0, "charges-max": 30 },
+      { "item": "rsw_stg45", "prob": 10, "charges-min": 0, "charges-max": 30 },
+      { "item": "rsw_vg15", "prob": 10, "charges-min": 0, "charges-max": 30 },
+      { "item": "rsw_coltringrifle", "prob": 10, "charges-min": 0, "charges-max": 8 },
+      { "item": "rsw_kamerlader", "prob": 35, "charges-min": 0, "charges-max": 1 },
+      { "item": "rsw_whitworth_rifle", "prob": 25, "charges-min": 0, "charges-max": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common",
+    "//": "Pistols commonly owned by citizens and found in many locations.",
+    "items": [
+      { "item": "rem_colt_woodsman", "prob": 20, "charges-min": 0, "charges-max": 10 },
+      { "item": "rsw_plainfield", "prob": 10, "charges-min": 0, "charges-max": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_display",
+    "//": "Empty pistols found exclusively in gun stores.",
+    "items": [
+      { "item": "rem_colt_woodsman", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_plainfield", "prob": 10, "charges-min": 0, "charges-max": 0 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_pistol_common",
+    "//": "Factory specification pistol magazines commonly owned by citizens.",
+    "items": [
+      [ "rem_woodsmag", 5 ],
+      [ "rsw_plainsmag", 5 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_rare",
+    "//": "Less common pistols including those only used by police/paramilitary forces.",
+    "items": [
+      { "item": "rsw_m1_carbine_pistol", "prob": 13, "charges-min": 0, "charges-max": 15 },
+      { "collection": [ { "item": "rsw_gyrojetpistol", "charges-min": 0, "charges-max": 6 }, { "item": "rsw_gyrojet_riflekit", "prob": 65 } ], "prob": 15 },
+      { "item": "rsw_colt_paterson", "prob": 13, "charges-min": 0, "charges-max": 5 },
+      { "item": "rsw_tripleaction", "prob": 13, "charges-min": 0, "charges-max": 1 },
+      { "item": "rsw_mauserhsc", "prob": 13, "charges-min": 0, "charges-max": 8 },
+      { "item": "rsw_danuvia", "prob": 8, "charges-min": 0, "charges-max": 33 },
+      { "item": "rsw_fkbrno", "prob": 13, "charges-min": 0, "charges-max": 15 },
+      { "collection": [ { "item": "rsw_dardick_revolver", "charges-min": 0, "charges-max": 15 }, { "item": "rsw_dardick_riflekit", "prob": 65 } ], "prob": 15 },
+      { "item": "rsw_toz81", "prob": 13, "charges-min": 0, "charges-max": 5 },
+      { "item": "rsw_kolibri_pistol", "prob": 5, "charges-min": 0, "charges-max": 6 },
+      { "item": "light_plus_battery_cell", "ammo-item": "battery", "charges": 150, "container-item": "rsw_sovlaspistol", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_rare_display",
+    "//": "Less common pistols including those only used by police/paramilitary forces.",
+    "items": [
+      { "item": "rsw_m1_carbine_pistol", "prob": 13, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_m1_carbine_pistol", "prob": 13, "charges-min": 0, "charges-max": 0 },
+      { "collection": [ { "item": "rsw_gyrojetpistol", "charges-min": 0, "charges-max": 0 }, { "item": "rsw_gyrojet_riflekit", "prob": 65 } ], "prob": 20 },
+      { "item": "rsw_colt_paterson", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_tripleaction", "prob": 13, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_mauserhsc", "prob": 13, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_danuvia", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_fkbrno", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "collection": [ { "item": "rsw_dardick_revolver", "charges-min": 0, "charges-max": 0 }, { "item": "rsw_dardick_riflekit", "prob": 65 } ], "prob": 15 },
+      { "item": "rsw_toz81", "prob": 13, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_kolibri_pistol", "prob": 5, "charges-min": 0, "charges-max": 6 },
+      { "item": "rsw_sovlaspistol" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_pistol_rare",
+    "//": "Aftermarket or otherwise uncommon pistol magazines excluding milspec.",
+    "items": [
+      [ "rsw_paterson_cylinder5", 2 ],
+      [ "rsw_fkbrno_mag", 15 ],
+      [ "rsw_hscmag", 5 ],
+      [ "rsw_danuviamag", 5 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_smg_common",
+    "//": "SMGs commonly owned by citizens and found in many locations.",
+    "items": [
+      { "item": "rsw_mp40", "prob": 30, "charges-min": 0, "charges-max": 32 },
+      { "item": "amg_reising", "prob": 30, "charges-min": 0, "charges-max": 12 },
+      { "item": "rsw_zb47", "prob": 15, "charges-min": 0, "charges-max": 30 },
+      { "item": "rsw_mc51k", "prob": 15, "charges-min": 0, "charges-max": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_smg_common_display",
+    "//": "Empty SMGs exclusively found in gun stores.",
+    "items": [
+      { "item": "rsw_mp40", "prob": 30, "charges-min": 0, "charges-max": 0 },
+      { "item": "amg_reising", "prob": 30, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_zb47", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "item": "rsw_mc51k", "prob": 15, "charges-min": 0, "charges-max": 0 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_smg_common",
+    "//": "Factory specification SMG magazines commonly owned by citizens.",
+    "items": [
+      [ "mp40mag", 10 ],
+      [ "am_reising_mag_a", 5 ],
+      [ "rsw_zb47mag_30", 4 ],
+      [ "rsw_zb47mag_72", 4 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "ammo_pistol_rare",
+    "//": "Less common pistol ammo including that only used by police/paramilitary forces.",
+    "items": [
+      { "item": "rsw_30carbine_ball", "prob": 35 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "ammo_pistol_obscure",
+    "//": "Imported or otherwise very obscure pistol ammo.",
+    "items": [
+      { "item": "13mmgyrojet_rocket", "prob": 65 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "ammo_rifle_common",
+    "//": "Rifle ammo commonly owned by citizens and found in many locations.",
+    "items": [
+      { "item": "rsw_30carbine_ball", "prob": 25 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "ammo_rifle_rare",
+    "//": "Less common pistol ammo including that only used by police/paramilitary forces.",
+    "items": [
+      { "item": "rsw_65mm_arisaka", "prob": 15 },
+      { "item": "rsw_65mm_arisaka_genso", "prob": 5 },
+      { "item": "rsw_77mm_arisaka_ball", "prob": 13 },
+      { "item": "rsw_77mm_arisaka_ap", "prob": 2 },
+      { "item": "rsw_77mm_arisaka_inc", "prob": 2 },
+      { "item": "rsw_77mm_arisaka_exp", "prob": 2 }
+    ]
+  }
+]

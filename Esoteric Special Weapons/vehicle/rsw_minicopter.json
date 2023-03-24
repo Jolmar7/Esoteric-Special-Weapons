@@ -1,0 +1,49 @@
+[
+  {
+    "id": "rsw_microblade",
+    "copy-from": "helicopter_rotors",
+    "type": "vehicle_part",
+    "name": "Aerocycle Rotors",
+    "item": "rsw_microblade_item",
+    "looks_like": "small_civilian_rotors",
+    "//": "rotor diameter is in meters",
+    "rotor_diameter": 3,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 7 ] ], "time": "2 h", "using": [ [ "welding_standard", 20 ] ] },
+      "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "2 h", "using": [ [ "vehicle_weld_removal", 4 ] ] },
+      "repair": { "skills": [ [ "mechanics", 8 ] ], "time": "2 h", "using": [ [ "welding_standard", 20 ] ] }
+    },
+    "durability": 85,
+    "description": "Small helicopter rotors of about fifteen feet in diameter.",
+    "damage_modifier": 20,
+    "breaks_into": [ { "item": "scrap", "count": [ 8, 15 ] }, { "item": "steel_chunk", "count": [ 2, 8 ] } ],
+    "damage_reduction": { "all": 22 }
+  },
+  {
+    "id": "rsw_microblade_item",
+    "type": "GENERIC",
+    "category": "veh_parts",
+    "name": { "str": "Aerocycle Rotors", "str_pl": "sets of Aerocycle Rotors" },
+    "description": "Small helicopter rotors of about fifteen feet in diameter.",
+    "price": 1200,
+    "price_postapoc": 250,
+    "weight": "41200 g",
+    "volume": "25100 ml",
+    "looks_like": "xl_wind_turbine",
+    "material": "steel",
+    "symbol": "X",
+    "color": "blue"
+  },
+  {
+    "id": "rsw_hz1cycle",
+    "type": "vehicle",
+    "name": "HZ-1 Aerocycle",
+    "parts": [
+      { "x": 0, "y": 0, "parts": [ "xlframe_cross", "folding_seat", "controls", "dashboard", "engine_1cyl_large", "rsw_microblade", { "part": "tank_small", "fuel": "gasoline" } ] },
+      { "x": 0, "y": 1, "parts": [ "xlframe_horizontal" ] },
+      { "x": 0, "y": -1, "parts": [ "xlframe_horizontal" ] },
+      { "x": 1, "y": 0, "parts": [ "xlframe_vertical" ] },
+      { "x": -1, "y": 0, "parts": [ "xlframe_vertical" ] }
+    ]
+  }
+]

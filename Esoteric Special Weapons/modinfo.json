@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "eso_specweap_mod",
+    "name": "Esoteric Special Weapons Mod",
+    "authors": [ "Jolmar7" ],
+    "maintainers": [ "Jolmar7" ],
+    "description": "Adds a variety of miscellaneous weapons to the game based on my own personal preference.",
+    "category": "misc_additions",
+    "dependencies": [ "bn" ]
+  }
+]

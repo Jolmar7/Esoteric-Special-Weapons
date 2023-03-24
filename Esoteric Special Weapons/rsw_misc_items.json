@@ -1,0 +1,49 @@
+[
+  
+  {
+    "id": "rsw_gyrojet_riflekit",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Gyrojet rifle kit" },
+    "description": "A rifle kit for a gyrojet pistol, allowing this strange weapon to become a lightweight carbine.",
+    "weight": "480 g",
+    "volume": "300 ml",
+    "price": 1000,
+    "price_postapoc": 10,
+    "material": [ "steel", "wood" ],
+    "symbol": "r",
+    "color": "white"
+  },
+  {
+    "id": "rsw_dardick_riflekit",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "dardick rifle kit" },
+    "description": "A rifle kit for a gyrojet pistol, allowing this strange weapon to become a lightweight carbine.",
+    "weight": "989 g",
+    "volume": "550 ml",
+    "price": 1000,
+    "price_postapoc": 10,
+    "material": [ "steel", "wood" ],
+    "symbol": "r",
+    "color": "white"
+  },
+  {
+    "id": "rsw_lorebook",
+    "type": "BOOK",
+    "name": { "str": "Mysterious and Rare Guns of the World", "str_pl": "copies of Mysterious and Rare Guns of the World" },
+    "description": "A thick hardcover book that goes into immense detail on a variety of strange firearms and weapons from around the world.",
+    "weight": "520 g",
+    "volume": "400 ml",
+    "price": 3800,
+    "price_postapoc": 1250,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "green",
+    "skill": "gun",
+    "required_level": 2,
+    "max_level": 4,
+    "intelligence": 10,
+    "time": "23 m"
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "result": "rsw_powderkeg",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "chem_black_powder", 350 ] ], [ [ "splinter", 2 ] ], [ [ "string_6", 1 ] ] ]
+  },
+  {
+    "result": "2mm_Kolibri",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "2mm_kolibri_casing", 1 ] ], [ [ "smpistol_primer", 1 ] ], [ [ "gunpowder", 1 ] ], [ [ "lead", 1 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "reloaded_2mm_Kolibri",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "2mm_kolibri_casing", 1 ] ], [ [ "smpistol_primer", 1 ] ], [ [ "gunpowder", 1 ] ], [ [ "lead", 1 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_566_spear",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_566_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder", 4 ] ], [ [ "copper", 1 ] ], [ [ "scrap", 1 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "reloaded_rsw_566_spear",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_566_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder", 4 ] ], [ [ "copper", 1 ] ], [ [ "scrap", 1 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_30carbine_ball",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_30carbine_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder", 3 ] ], [ [ "copper", 1 ] ], [ [ "lead", 3 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_30carbine_ball_bp",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_30carbine_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "chem_black_powder", 4 ] ], [ [ "copper", 1 ] ], [ [ "lead", 3 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "reloaded_rsw_30carbine_ball",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_30carbine_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder", 3 ] ], [ [ "copper", 1 ] ], [ [ "lead", 3 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_65mm_arisaka",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_65mm_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "gunpowder", 9 ] ], [ [ "copper", 2 ] ], [ [ "lead", 5 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_65mm_arisaka_genso",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_65mm_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "gunpowder", 7 ] ], [ [ "copper", 2 ] ], [ [ "lead", 5 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_65mm_arisaka_bp",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_65mm_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "chem_black_powder", 14 ] ], [ [ "copper", 2 ] ], [ [ "lead", 5 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "reloaded_rsw_65mm_arisaka",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_65mm_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "gunpowder", 9 ] ], [ [ "copper", 2 ] ], [ [ "lead", 5 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_77mm_arisaka_ball",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_77mm_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "gunpowder", 10 ] ], [ [ "copper", 3 ] ], [ [ "lead", 6 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_77mm_arisaka_ap",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_77mm_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "gunpowder", 10 ] ], [ [ "copper", 3 ] ], [ [ "lead", 6 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_77mm_arisaka_exp",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_77mm_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "gunpowder", 13 ] ], [ [ "copper", 3 ] ], [ [ "lead", 6 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_77mm_arisaka_bp",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_77mm_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "chem_black_powder", 15 ] ], [ [ "copper", 3 ] ], [ [ "lead", 6 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "reloaded_rsw_77mm_arisaka_ball",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_77mm_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "gunpowder", 10 ] ], [ [ "copper", 3 ] ], [ [ "lead", 6 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_type91_grenade",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "SCREW", "level": 2 } ],
+    "components": [ [ [ "delay_fuze", 1 ] ], [ [ "canister_empty", 1 ] ], [ [ "gunpowder", 55 ] ], [ [ "scrap", 3 ] ] ]
+  },
+  {
+    "result": "type89_grenade_shell",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "SCREW", "level": 2 } ],
+    "components": [ [ [ "rsw_type91_grenade", 1 ] ], [ [ "gunpowder", 10 ] ], [ [ "scrap", 1 ] ] ]
+  },
+  {
+    "result": "rsw_type91mine",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "SCREW", "level": 2 } ],
+    "components": [ [ [ "rsw_type91_grenade", 1 ] ], [ [ "scrap", 1 ] ], [ [ "string_6", 1 ] ] ]
+  },
+  {
+    "result": "rsw_ketchum_grenade",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "SCREW", "level": 2 } ],
+    "components": [ [ [ "scrap", 5 ] ], [ [ "splinter", 1 ] ], [ [ "paper", 4 ] ], [ [ "chem_black_powder", 40 ] ], [ [ "lgrifle_primer", 1 ] ] ]
+  },
+  {
+    "result": "rsw_792kurz_ball",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_792kurz_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder", 4 ] ], [ [ "copper", 2 ] ], [ [ "lead", 5 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_792kurz_ball_bp",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_792kurz_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "chem_black_powder", 6 ] ], [ [ "lead", 5 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "reloaded_rsw_792kurz_ball",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "rsw_792kurz_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder", 4 ] ], [ [ "copper", 2 ] ], [ [ "lead", 5 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_whitworth_bullet",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 2 } ],
+    "components": [ [ [ "paper", 1 ] ], [ [ "lead", 12 ] ], [ [ "chem_black_powder", 6 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_7mmbrno_round",
+    "type": "uncraft",
+    "skill_used": "gun",
+    "difficulty": 5,
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 1 } ],
+    "components": [ [ [ "lead", 2 ] ], [ [ "rsw_75_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder", 5 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_7mmbrno_round_hp",
+    "type": "uncraft",
+    "skill_used": "gun",
+    "difficulty": 5,
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 1 } ],
+    "components": [ [ [ "lead", 2 ] ], [ [ "rsw_75_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder", 5 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_7mmbrno_round_bp",
+    "type": "uncraft",
+    "skill_used": "gun",
+    "difficulty": 5,
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 1 } ],
+    "components": [ [ [ "lead", 2 ] ], [ [ "rsw_75_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "chem_black_powder", 6 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "reloaded_rsw_7mmbrno_round",
+    "type": "uncraft",
+    "skill_used": "gun",
+    "difficulty": 5,
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 1 } ],
+    "components": [ [ [ "lead", 2 ] ], [ [ "rsw_75_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder", 5 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "reloaded_rsw_7mmbrno_round_hp",
+    "type": "uncraft",
+    "skill_used": "gun",
+    "difficulty": 5,
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 1 } ],
+    "components": [ [ [ "lead", 2 ] ], [ [ "rsw_75_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder", 5 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_dardick_tround",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 1 } ],
+    "components": [ [ [ "lead", 2 ] ], [ [ "tround_casing", 1 ] ], [ [ "smpistol_primer", 1 ] ], [ [ "gunpowder", 2 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_dardick_tround_bp",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 1 } ],
+    "components": [ [ [ "lead", 2 ] ], [ [ "tround_casing", 1 ] ], [ [ "smpistol_primer", 1 ] ], [ [ "chem_black_powder", 3 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "reloaded_rsw_dardick_tround",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 1 } ],
+    "components": [ [ [ "lead", 2 ] ], [ [ "tround_casing", 1 ] ], [ [ "smpistol_primer", 1 ] ], [ [ "gunpowder", 2 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rsw_gyrojetrifle",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "rsw_gyrojetpistol", 1 ] ], [ [ "rsw_gyrojet_riflekit", 1 ] ] ]
+  },
+  {
+    "result": "rsw_gyrojetrifle_custom",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "rsw_gyrojetpistol_custom", 1 ] ], [ [ "rsw_gyrojet_riflekit", 1 ] ] ]
+  },
+  {
+    "result": "rsw_dardick_carbine",
+    "type": "uncraft",
+    "time": "5 s",
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "rsw_dardick_revolver", 1 ] ], [ [ "rsw_dardick_riflekit", 1 ] ] ]
+  }
+]

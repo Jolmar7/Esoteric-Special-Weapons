@@ -1,0 +1,71 @@
+[
+  {
+    "id": "rsw_type91mine",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "type 91 grenade trap" },
+    "description": "This is a type 91 grenade outfitted with a small snare so that it may be used as a booby trap. Use to deploy.",
+    "weight": "2360 g",
+    "volume": "500 ml",
+    "price": 5000,
+    "price_postapoc": 500,
+    "to_hit": -1,
+    "bashing": 6,
+    "material": "steel",
+    "symbol": ";",
+    "color": "dark_gray",
+    "use_action": {
+      "type": "place_trap",
+      "bury_question": "Bury the land type 91 grenade?",
+      "bury": { "trap": "tr_t91grenade_buried", "moves": 275, "practice": 7, "done_message": "You bury the type 91 grenade." },
+      "trap": "tr_t91grenade",
+      "moves": 200,
+      "practice": 4,
+      "done_message": "You set the type 91 grenade."
+    }
+  },
+  {
+    "type": "trap",
+    "id": "tr_t91grenade",
+    "trigger_weight": 200,
+    "name": "type 91 grenade trap",
+    "color": "red",
+    "symbol": "^",
+    "visibility": 1,
+    "avoidance": 14,
+    "difficulty": 10,
+    "action": "landmine",
+    "drops": [ "rsw_type91mine" ],
+    "vehicle_data": {
+      "do_explosion": true,
+      "damage": 200,
+      "shrapnel": 3,
+      "sound_volume": 10,
+      "sound": "Boom!",
+      "sound_type": "explosion",
+      "sound_variant": "default"
+    }
+  },
+  {
+    "type": "trap",
+    "id": "tr_t91grenade_buried",
+    "trigger_weight": 50,
+    "name": "buried type 91 grenade trap",
+    "color": "red",
+    "symbol": "_",
+    "visibility": 10,
+    "avoidance": 14,
+    "difficulty": 10,
+    "action": "landmine",
+    "drops": [ "rsw_type91mine" ],
+    "vehicle_data": {
+      "do_explosion": true,
+      "damage": 200,
+      "shrapnel": 3,
+      "sound_volume": 10,
+      "sound": "Boom!",
+      "sound_type": "explosion",
+      "sound_variant": "default"
+    }
+  }
+]

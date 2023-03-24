@@ -1,0 +1,56 @@
+[
+    {
+        "type":"palette",
+        "id":"rsw_gunshop_pal",
+        "terrain": {
+           "S": "t_sidewalk",
+           "P": "t_pavement",
+           "W": "t_brick_wall",
+           "D": "t_door_c",
+           "F": "t_floor",
+           "w": "t_window_no_curtains",
+           "Z": "t_floor",
+           "z": "t_floor",
+           "1": "t_floor",
+           "B": "t_floor",
+           "V": "t_wall",
+           "v": "t_concrete",
+           "2": "t_floor",
+           "3": "t_floor",
+           "4": "t_floor",
+           "5": "t_floor",
+           "6": "t_floor",
+           "7": "t_floor",
+           "d": "t_door_locked_alarm",
+           "8": "t_concrete",
+           "$": "t_concrete"
+        },
+        "furniture": {
+           "Z": "f_stool",
+           "z": "f_counter",
+           "1": "f_bookcase",
+           "B": "f_indoor_plant",
+           "2": "f_utility_shelf",
+           "3": "f_displaycase",
+           "4": "f_displaycase",
+           "5": "f_displaycase",
+           "6": "f_displaycase",
+           "7": "f_glass_cabinet",
+           "8": [ "f_crate_c", "f_crate_o" ],
+           "$": "f_gun_safe_el"
+        },
+    "items": {
+
+        "z": [ { "item": "book_gunmags", "chance": 15 }, { "item": "book_gunref", "chance": 15 }, { "item": "book_military", "chance": 10 }, { "item": "MRE", "chance": 35, "repeat": [ 1, 2 ] } ],
+        "1": [ { "item": "book_gunref", "chance": 15 }, { "item": "book_military", "chance": 15 }, { "item": "exotic_books", "chance": 15 }, { "item": "book_gunmags", "chance": 20 } ],
+        "2": [ { "item": "tools_gunsmith", "chance": 25 }, { "item": "rsw_gunsmith_parts", "chance": 48, "repeat": [ 1, 4 ] } ],
+        "3": [ { "item": "rsw_gstore_pistol", "chance": 30 }, { "item": "rsw_gstore_smg", "chance": 25 } ],
+        "4": [ { "item": "rsw_gstore_rifle", "chance": 65 } ],
+        "5": [ { "item": "rsw_ammo", "chance": 75, "repeat": [ 1, 3 ] }, { "item": "ammo_rare", "chance": 15 }, { "item": "ammo_obscure", "chance": 30, "repeat": [ 1, 2 ] } ],
+        "6": [ { "item": "rsw_magazines", "chance": 60, "repeat": [ 1, 3 ] }, { "item": "mags_pistol_common", "chance": 20 }, { "item": "mags_rifle_common", "chance": 20 } ],
+        "7": [ { "item": "rsw_melee_clothes", "chance": 75 } ],
+        "8": [ { "item": "rsw_ammo", "chance": 65, "repeat": [ 1, 5 ] }, { "item": "rsw_grenade", "chance": 50, "repeat": [ 2, 4 ] }, { "item": "vending_ammo", "chance": 30 } ],
+        "$": [ { "item": "rsw_gunsafe", "chance": 100 } ]
+            }
+        }
+]

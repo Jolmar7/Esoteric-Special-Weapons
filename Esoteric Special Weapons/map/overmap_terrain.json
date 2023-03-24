@@ -1,0 +1,21 @@
+[
+    {
+        "id": "rsw_gunshop_1",
+        "type": "overmap_terrain",
+        "name": "Firearm Emporium",
+        "sym": "E",
+        "color": "black_green",
+        "see_cost": 10,
+        "mondensity": 2,
+        "flags": [ "SIDEWALK" ]
+    },
+    {
+        "id": "rsw_gunshop_1_roof",
+        "type": "overmap_terrain",
+        "name": "Firearm Emporium roof",
+        "sym": "E",
+        "color": "black_green",
+        "see_cost": 2
+    }
+        
+]

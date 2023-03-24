@@ -1,0 +1,47 @@
+[
+  {
+    "id": "FO_CROCKETT_NUKE",
+    "type": "ammo_effect",
+    "aoe": {
+      "field_type": "fd_nuke_gas",
+      "intensity_min": 2,
+      "intensity_max": 3,
+      "radius": 21,
+      "size": 4,
+      "check_passable": true,
+      "check_sees": true,
+      "check_sees_radius": 3
+    },
+    "explosion": { "damage": 650, "radius": 25 }
+  },
+  {
+    "id": "FO_RECOILLESS_NUKE",
+    "type": "ammo_effect",
+    "aoe": {
+      "field_type": "fd_nuke_gas",
+      "intensity_min": 2,
+      "intensity_max": 3,
+      "radius": 21,
+      "size": 1,
+      "check_passable": true,
+      "check_sees": true,
+      "check_sees_radius": 3
+    },
+    "explosion": { "damage": 330, "radius": 25 }
+  },
+  {
+    "id": "FO_RECOILLESS_SMOKE",
+    "type": "ammo_effect",
+    "aoe": {
+      "field_type": "rsw_white_phosphorus",
+      "intensity_min": 1,
+      "intensity_max": 3,
+      "radius": 8,
+      "size": 1,
+      "check_passable": true,
+      "check_sees": true,
+      "check_sees_radius": 3
+    },
+    "explosion": { "damage": 5, "radius": 1 }
+  }
+]

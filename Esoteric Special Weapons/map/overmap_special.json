@@ -1,0 +1,7 @@
+[
+    {
+        "type": "city_building",
+        "id": "rsw_gunshop_1","overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "rsw_gunshop_1_north" }, { "point": [ 0, 0, 1 ], "overmap": "rsw_gunshop_1_roof_north" } ],
+        "locations": [ "land" ]
+    }
+]

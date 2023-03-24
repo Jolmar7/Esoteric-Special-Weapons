@@ -1,0 +1,12 @@
+[
+    {
+        "type": "region_overlay",
+        "regions": [ "all" ],
+        "city": {
+            "shops": {
+                "rsw_gunshop_1": 300
+            }
+        }
+    }
+]
+        

@@ -1,0 +1,188 @@
+[
+    {
+        "type": "mapgen",
+        "method": "json",
+        "weight": 1000,
+        "om_terrain": [ "rsw_gunshop_1" ],"object": {
+            "fill_ter": "t_floor",
+            "rows": [
+                
+                "SSSSSSSSSSSSSSSSSSSSSSSS",
+                "SSSSSSSSSSSSSSSSSSSSSSSS",
+                "SSSSSSSSSSSSSSSSSSSSSSSS",
+                "PPSSSWWWDDWwwWDDWWWSSSPP",
+                "PPSSSw77FFFFFFFF77wSSSPP",
+                "PPSSSWFFFFFFFFFFFFWSSSPP",
+                "PPSSSwFFFFFFFFFFFFwSSSPP",
+                "PPWWWWFF666FF555FFWWWWPP",
+                "PPWzzzFF666FF555FFHFHWPP",
+                "PPWzZFFFFFFFFFFFFFFFFWPP",
+                "PPWzFFFF333FF444FFFFFWPP",
+                "PPWzZFFF333FF444FFFFFWPP",
+                "PPWzFFFFFFFFFFFFFFFFFWPP",
+                "PPWzZFFFVVVVVVVV2F2F2WPP",
+                "PPW1FFFFV$$v888V2F2F2WPP",
+                "PjW1FFFFdvvvvvvdFFFFFWPP",
+                "PPW11FFFVvvvvvvVFFFzzWPP",
+                "PPWWWBFBV888888VzzzzWWPP",
+                "PPPPWWWWWWWWWWWWWWWWWPPP",
+                "PPPPPPPPPPPPPPPPPPPPPPPP",
+                "PPPPPPPPPPPPPPPPPPPPPPPP",
+                "PPPPPPPPPPPPPPPPPPPPPPPP",
+                "PPPPPPPPPPPPPPPPPPPPPPPP",
+                "PPPPPPPPPPPPPPPPPPPPPPPP"
+            ],
+        "palettes": [ "rsw_gunshop_pal" ],
+        "vendingmachines": { "H": { "item_group": "rsw_vending_group", "reinforced": true } },
+        "terrain": { ",": "t_region_groundcover", "j": "t_gutter_downspout" },
+        "place_loot": [
+        { "item": "rsw_lorebook", "x": 17, "y": 17, "chance": 65 }
+            ]
+        }
+    },
+    {
+        "type": "mapgen",
+        "method": "json",
+        "om_terrain": "rsw_gunshop_1_roof",
+        "weight": 100,
+        "object": {
+            "fill_ter": "t_open_air",
+             "rows": [
+                
+                "                        ",
+                "                        ",
+                "                        ",
+                "     |KKKKKKKKKKKKh     ",
+                "     |............h     ",
+                "     |............h     ",
+                "     |............h     ",
+                "  |KK|............hKKh  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  J..................h  ",
+                "  |..................h  ",
+                "  |k|...............kh  ",
+                "    |kkkkkkkkkkkkkkkh   ",
+                "                        ",
+                "                        ",
+                "                        ",
+                "                        ",
+                "                        "
+            ],
+            "terrain": {
+                ".": "t_flat_roof",
+                "|": "t_gutter_west",
+                "h": "t_gutter_east",
+                "k": "t_gutter_south",
+                "K": "t_gutter_north",
+                "J": "t_gutter_drop"
+            }
+        }
+    },
+    {
+        "type": "mapgen",
+        "method": "json",
+        "om_terrain": "rsw_gunshop_1_roof",
+        "weight": 40,
+        "object": {
+            "fill_ter": "t_open_air",
+             "rows": [
+                
+                "                        ",
+                "                        ",
+                "                        ",
+                "     |KKKKKKKKKKKKh     ",
+                "     |............h     ",
+                "     |............h     ",
+                "     |............h     ",
+                "  |KK|............hKKh  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  J..................h  ",
+                "  |..................h  ",
+                "  |k|...............kh  ",
+                "    |kkkkkkkkkkkkkkkh   ",
+                "                        ",
+                "                        ",
+                "                        ",
+                "                        ",
+                "                        "
+            ],
+            "terrain": {
+                ".": "t_flat_roof",
+                "|": "t_gutter_west",
+                "h": "t_gutter_east",
+                "k": "t_gutter_south",
+                "K": "t_gutter_north",
+                "J": "t_gutter_drop"
+            },
+            "place_vehicles": [ { "vehicle": "rsw_hz1cycle", "x": 18, "y": 12, "fuel": 10, "status": 1, "rotation": 90, "chance": 100 } ]
+        }
+    },
+    {
+        "type": "mapgen",
+        "method": "json",
+        "om_terrain": "rsw_gunshop_1_roof",
+        "weight": 100,
+        "object": {
+            "fill_ter": "t_open_air",
+             "rows": [
+                
+                "                        ",
+                "                        ",
+                "                        ",
+                "     |KKKKKKKKKKKKh     ",
+                "     |............h     ",
+                "     |............h     ",
+                "     |...UU.......h     ",
+                "  |KK|....?.......hKKh  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  |..................h  ",
+                "  J..................h  ",
+                "  |..................h  ",
+                "  |k|...............kh  ",
+                "    |kkkkkkkkkkkkkkkh   ",
+                "                        ",
+                "                        ",
+                "                        ",
+                "                        ",
+                "                        "
+            ],
+            "terrain": {
+                ".": "t_flat_roof",
+                "|": "t_gutter_west",
+                "h": "t_gutter_east",
+                "k": "t_gutter_south",
+                "K": "t_gutter_north",
+                "J": "t_gutter_drop",
+                "U": "t_flat_roof",
+                "?": "t_flat_roof"
+
+            },
+            "furniture": {
+                "U": "f_table",
+                "?": "f_stool"
+
+            },
+            "place_items": [
+        { "item": "rsw_roofrifle", "x": 10, "y": 6, "chance": 95 },
+        { "item": "MRE", "x": 9, "y": 6, "chance": 50 }
+      ]
+        }
+    }
+]

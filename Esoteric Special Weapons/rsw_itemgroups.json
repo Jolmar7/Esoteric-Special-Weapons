@@ -1,0 +1,292 @@
+[
+  
+{
+    "type": "item_group",
+    "id": "rsw_roofrifle",
+    "subtype": "distribution",
+    "entries": [
+      { "collection": [ { "item": "rsw_girardoni_rifle" }, { "item": "bearing", "charges": [ 10, 30 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_rivtech_g11" }, { "item": "rsw__g11mag", "charges": 0, "count": [ 1, 3 ] }, { "item": "8mm_caseless", "charges": [ 65, 150 ], "prob": 75 }, { "item": "8mm_bootleg", "charges": [ 30, 55 ], "prob": 25 }, { "item": "8mm_civilian", "charges": [ 5, 20 ], "prob": 25 }, { "item": "8mm_hvp", "charges": [ 8, 25 ], "prob": 25 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_trwrifle" }, { "item": "survivor223mag", "charges": 5, "count": [ 1, 2 ], "prob": 25 }, { "item": "stanag5", "charges": 5, "count": [ 1, 2 ], "prob": 25 }, { "item": "stanag10", "charges": [ 7, 10 ], "count": [ 1, 2 ], "prob": 38 }, { "item": "stanag30", "charges": [ 17, 30 ], "count": [ 1, 3 ], "prob": 60 }, { "item": "bp_223", "charges": [ 10, 20 ], "prob": 30 }, { "item": "223", "charges": [ 25, 65 ], "prob": 75 }, { "item": "556", "charges": [ 5, 20 ], "prob": 20 }, { "item": "reloaded_223", "charges": [ 8, 25 ], "prob": 30 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_lemat_carbine" }, { "item": "44army", "charges": [ 30, 45 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_m1_carbine" }, { "item": "rsw_m1mag_15", "charges": 15, "count": [ 1, 3 ], "prob": 75 }, { "item": "rsw_m1mag_30", "charges": 30, "count": [ 1, 2 ], "prob": 35 }, { "item": "rsw_30carbine_ball", "charges": [ 30, 50 ], "prob": 85 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_65arisaka" }, { "item": "rsw_65mm_clip", "charges": 5, "count": [ 1, 5 ], "prob": 75 }, { "item": "rsw_65mm_arisaka_genso", "charges": [ 5, 25 ], "prob": 75 }, { "item": "rsw_65mm_arisaka", "charges": [ 15, 40 ], "prob": 75 }, { "item": "rsw_type30_bayonet", "prob": 50 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_65carbine" }, { "item": "rsw_65mm_clip", "charges": 5, "count": [ 1, 5 ], "prob": 75 }, { "item": "rsw_65mm_arisaka_genso", "charges": [ 5, 25 ], "prob": 75 }, { "item": "rsw_65mm_arisaka", "charges": [ 15, 40 ], "prob": 75 }, { "item": "rsw_type30_bayonet", "prob": 50 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_77arisaka" }, { "item": "rsw_77mm_clip", "charges": 5, "count": [ 1, 5 ], "prob": 75 }, { "item": "rsw_77mm_arisaka_ball", "charges": [ 15, 40 ], "prob": 85 }, { "item": "rsw_type30_bayonet", "prob": 50 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_howa64" }, { "item": "rsw_howamag", "charges": 20, "count": [ 1, 3 ], "prob": 90 }, { "item": "762_51", "charges": [ 35, 60 ], "prob": 85 }, { "item": "308", "charges": [ 5, 30 ], "prob": 40 } ], "prob": 100 },
+      { "collection": [ { "item": "rem_remingtoneight" }, { "item": "rem_eightclip", "charges": 5, "count": [ 1, 3 ], "prob": 75 }, { "item": "308", "charges": [ 20, 35 ], "prob": 85 } ], "prob": 100 },
+      { "collection": [ { "item": "amg_ema_rifle" }, { "item": "amg_ema_mag20", "charges": 20, "count": [ 1, 3 ], "prob": 75 }, { "item": "amg_ema_mag20_m", "charges": 15, "count": [ 1, 2 ], "prob": 20 }, { "item": "bp_223", "charges": [ 10, 20 ], "prob": 30 }, { "item": "223", "charges": [ 10, 35 ], "prob": 45 }, { "item": "556", "charges": [ 5, 20 ], "prob": 20 }, { "item": "reloaded_223", "charges": [ 8, 25 ], "prob": 35 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_gyrojetrifle" }, { "item": "13mmgyrojet_rocket", "charges": [ 20, 55 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_kamerlader" }, { "item": "flintlock_ammo", "charges": [ 15, 35 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_whitworth_rifle" }, { "item": "rsw_whitworth_bullet", "charges": [ 15, 35 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_ar7" }, { "item": "rsw_ar7mag8", "charges": 8, "count": [ 1, 2 ], "prob": 65 }, { "item": "rsw_ar7mag10", "charges": 10, "count": [ 1, 2 ], "prob": 45 }, { "item": "rsw_ar7mag15", "charges": 15, "count": [ 1, 2 ], "prob": 20 }, { "item": "22_lr", "charges": [ 10, 35 ], "prob": 65 }, { "item": "22_cphp", "charges": [ 10, 35 ], "prob": 35 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_coltringrifle" }, { "item": "rsw_ringrifle_cylinder8", "charges": 8, "count": [ 1, 2 ], "prob": 75 }, { "item": "rsw_ringrifle_cylinder10", "charges": 10, "count": [ 1, 2 ], "prob": 28 }, { "item": "36navy", "charges": [ 20, 35 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_volkkarabiner" }, { "item": "rsw_792kurz_ball", "charges": [ 8, 35 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_natdef_rifle" }, { "item": "rsw_77mm_arisaka_ball", "charges": [ 6, 15 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_dardick_carbine" }, { "item": "rsw_dardick_tround", "charges": [ 7, 25 ], "prob": 100 } ], "prob": 100 }
+
+
+
+
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rsw_gstore_rifle",
+    "subtype": "distribution",
+    "entries": [
+      { "collection": [ { "item": "rsw_aps_rifle" }, { "item": "rsw_apsmag", "charges": 26, "count": [ 1, 2 ], "prob": 95 }, { "item": "rsw_apsmag_makeshift", "charges": 20, "prob": 20 }, { "item": "rsw_566_spear", "charges": [ 10, 45 ], "prob": 85 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_girardoni_rifle" }, { "item": "bearing", "charges": [ 10, 30 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_rivtech_g11" }, { "item": "rsw__g11mag", "charges": 0, "count": [ 1, 3 ] }, { "item": "8mm_caseless", "charges": [ 65, 150 ], "prob": 75 }, { "item": "8mm_bootleg", "charges": [ 30, 55 ], "prob": 25 }, { "item": "8mm_civilian", "charges": [ 5, 20 ], "prob": 25 }, { "item": "8mm_hvp", "charges": [ 8, 25 ], "prob": 25 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_trwrifle" }, { "item": "survivor223mag", "charges": 5, "count": [ 1, 2 ], "prob": 25 }, { "item": "stanag5", "charges": 5, "count": [ 1, 2 ], "prob": 25 }, { "item": "stanag10", "charges": [ 7, 10 ], "count": [ 1, 2 ], "prob": 38 }, { "item": "stanag30", "charges": [ 17, 30 ], "count": [ 1, 3 ], "prob": 60 }, { "item": "bp_223", "charges": [ 10, 20 ], "prob": 30 }, { "item": "223", "charges": [ 25, 65 ], "prob": 75 }, { "item": "556", "charges": [ 5, 20 ], "prob": 20 }, { "item": "reloaded_223", "charges": [ 8, 25 ], "prob": 30 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_lemat_carbine" }, { "item": "44army", "charges": [ 30, 45 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_m1_carbine" }, { "item": "rsw_m1mag_15", "charges": 15, "count": [ 1, 3 ], "prob": 75 }, { "item": "rsw_m1mag_30", "charges": 30, "count": [ 1, 2 ], "prob": 35 }, { "item": "rsw_30carbine_ball", "charges": [ 30, 50 ], "prob": 85 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_m2_carbine" }, { "item": "rsw_m1mag_15", "charges": 15, "count": [ 1, 3 ], "prob": 75 }, { "item": "rsw_m1mag_30", "charges": 30, "count": [ 1, 2 ], "prob": 35 }, { "item": "rsw_30carbine_ball", "charges": [ 30, 50 ], "prob": 85 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_turner_carbine" }, { "item": "rsw_m1mag_15", "charges": 15, "count": [ 1, 3 ], "prob": 75 }, { "item": "rsw_m1mag_30", "charges": 30, "count": [ 1, 2 ], "prob": 35 }, { "item": "rsw_30carbine_ball", "charges": [ 30, 50 ], "prob": 85 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_65arisaka" }, { "item": "rsw_65mm_clip", "charges": 5, "count": [ 1, 5 ], "prob": 75 }, { "item": "rsw_65mm_arisaka_genso", "charges": [ 5, 25 ], "prob": 75 }, { "item": "rsw_65mm_arisaka", "charges": [ 15, 40 ], "prob": 75 }, { "item": "rsw_type30_bayonet", "prob": 50 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_65carbine" }, { "item": "rsw_65mm_clip", "charges": 5, "count": [ 1, 5 ], "prob": 75 }, { "item": "rsw_65mm_arisaka_genso", "charges": [ 5, 25 ], "prob": 75 }, { "item": "rsw_65mm_arisaka", "charges": [ 15, 40 ], "prob": 75 }, { "item": "rsw_type30_bayonet", "prob": 50 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_77arisaka" }, { "item": "rsw_77mm_clip", "charges": 5, "count": [ 1, 5 ], "prob": 75 }, { "item": "rsw_77mm_arisaka_ball", "charges": [ 15, 40 ], "prob": 85 }, { "item": "rsw_type30_bayonet", "prob": 50 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_type11" }, { "item": "rsw_65mm_clip", "charges": 5, "count": [ 1, 5 ], "prob": 75 }, { "item": "rsw_65mm_arisaka_genso", "charges": [ 45, 65 ], "prob": 95 }, { "item": "rsw_65mm_arisaka", "charges": [ 15, 40 ], "prob": 75 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_howa64" }, { "item": "rsw_howamag", "charges": 20, "count": [ 1, 3 ], "prob": 90 }, { "item": "762_51", "charges": [ 35, 60 ], "prob": 85 }, { "item": "308", "charges": [ 5, 30 ], "prob": 40 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_howa89" }, { "item": "survivor223mag", "charges": 5, "count": [ 1, 2 ], "prob": 25 }, { "item": "stanag5", "charges": 5, "count": [ 1, 2 ], "prob": 25 }, { "item": "stanag10", "charges": [ 7, 10 ], "count": [ 1, 2 ], "prob": 38 }, { "item": "stanag30", "charges": [ 17, 30 ], "count": [ 1, 3 ], "prob": 60 }, { "item": "bp_223", "charges": [ 10, 20 ], "prob": 30 }, { "item": "223", "charges": [ 25, 65 ], "prob": 75 }, { "item": "556", "charges": [ 5, 20 ], "prob": 20 }, { "item": "reloaded_223", "charges": [ 8, 25 ], "prob": 30 } ], "prob": 100 },
+
+      { "collection": [ { "item": "rsw_stg44" }, { "item": "rsw_stgmag30", "charges": 30, "count": [ 1, 3 ], "prob": 85 }, { "item": "rsw_stgmag10", "charges": 10, "count": [ 1, 2 ], "prob": 30 }, { "item": "rsw_792kurz_ball", "charges": [ 10, 65 ], "prob": 90 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_stg45" }, { "item": "rsw_stgmag30", "charges": 30, "count": [ 1, 3 ], "prob": 85 }, { "item": "rsw_stgmag10", "charges": 10, "count": [ 1, 2 ], "prob": 30 }, { "item": "rsw_792kurz_ball", "charges": [ 10, 65 ], "prob": 90 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_vg15" }, { "item": "rsw_stgmag30", "charges": 30, "count": [ 1, 2 ], "prob": 50 }, { "item": "rsw_stgmag10", "charges": 10, "count": [ 1, 2 ], "prob": 65 }, { "item": "rsw_792kurz_ball", "charges": [ 10, 65 ], "prob": 90 } ], "prob": 100 },
+
+      { "collection": [ { "item": "rem_remingtoneight" }, { "item": "rem_eightclip", "charges": 5, "count": [ 1, 3 ], "prob": 75 }, { "item": "308", "charges": [ 20, 35 ], "prob": 85 } ], "prob": 100 },
+      { "collection": [ { "item": "amg_ema_rifle" }, { "item": "amg_ema_mag20", "charges": 20, "count": [ 1, 3 ], "prob": 75 }, { "item": "amg_ema_mag20_m", "charges": 15, "count": [ 1, 2 ], "prob": 20 }, { "item": "bp_223", "charges": [ 10, 20 ], "prob": 30 }, { "item": "223", "charges": [ 10, 35 ], "prob": 45 }, { "item": "556", "charges": [ 5, 20 ], "prob": 20 }, { "item": "reloaded_223", "charges": [ 8, 25 ], "prob": 35 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_gyrojetrifle" }, { "item": "13mmgyrojet_rocket", "charges": [ 20, 55 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_kamerlader" }, { "item": "flintlock_ammo", "charges": [ 15, 35 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_whitworth_rifle" }, { "item": "rsw_whitworth_bullet", "charges": [ 15, 35 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_ar7" }, { "item": "rsw_ar7mag8", "charges": 8, "count": [ 1, 2 ], "prob": 65 }, { "item": "rsw_ar7mag10", "charges": 10, "count": [ 1, 2 ], "prob": 45 }, { "item": "rsw_ar7mag15", "charges": 15, "count": [ 1, 2 ], "prob": 20 }, { "item": "22_lr", "charges": [ 10, 35 ], "prob": 65 }, { "item": "22_cphp", "charges": [ 10, 35 ], "prob": 35 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_coltringrifle" }, { "item": "rsw_ringrifle_cylinder8", "charges": 8, "count": [ 1, 2 ], "prob": 75 }, { "item": "rsw_ringrifle_cylinder10", "charges": 10, "count": [ 1, 2 ], "prob": 28 }, { "item": "36navy", "charges": [ 20, 35 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_volkkarabiner" }, { "item": "rsw_792kurz_ball", "charges": [ 8, 35 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_natdef_rifle" }, { "item": "rsw_77mm_arisaka_ball", "charges": [ 6, 15 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_dardick_carbine" }, { "item": "rsw_dardick_tround", "charges": [ 15, 35 ], "prob": 100 } ], "prob": 100 }
+
+
+
+
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rsw_gstore_pistol",
+    "subtype": "distribution",
+    "entries": [
+      { "collection": [ { "item": "rsw_kolibri_pistol" }, { "item": "rsw_kolibrimag", "charges": 6, "count": [ 1, 4 ], "prob": 100 }, { "item": "2mm_Kolibri", "charges": [ 15, 45 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_m1_carbine_pistol" }, { "item": "rsw_m1mag_15", "charges": 15, "count": [ 1, 3 ], "prob": 75 }, { "item": "rsw_m1mag_30", "charges": 30, "count": [ 1, 2 ], "prob": 35 }, { "item": "rsw_30carbine_ball", "charges": [ 30, 50 ], "prob": 85 } ], "prob": 100 },
+      { "collection": [ { "item": "rem_colt_woodsman" }, { "item": "rem_woodsmag", "charges": 32, "count": [ 1, 3 ], "prob": 100 }, { "item": "22_lr", "charges": [ 10, 35 ], "prob": 65 }, { "item": "22_cphp", "charges": [ 10, 35 ], "prob": 35 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_plainfield" }, { "item": "rsw_plainsmag", "charges": 10, "count": [ 1, 2 ], "prob": 100 }, { "item": "22_lr", "charges": [ 10, 35 ], "prob": 65 }, { "item": "22_cphp", "charges": [ 10, 35 ], "prob": 35 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_gyrojetpistol" }, { "item": "13mmgyrojet_rocket", "charges": [ 20, 55 ], "prob": 100 }, { "item": "rsw_gyrojet_riflekit", "prob": 50 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_sovlaspistol" }, { "item": "light_battery_cell", "charges": 100, "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_colt_paterson" }, { "item": "rsw_paterson_cylinder5", "charges": 8, "count": [ 1, 2 ], "prob": 100 }, { "item": "36navy", "charges": [ 20, 35 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_tripleaction" }, { "item": "50bmg", "charges": [ 6, 15 ], "prob": 100 }, { "item": "50match", "charges": [ 2, 5 ], "prob": 20 }, { "item": "50ss", "charges": [ 2, 5 ], "prob": 20 }, { "item": "rsw_50mm_exp", "charges": [ 5, 10 ], "prob": 20 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_mauserhsc" }, { "item": "rsw_hscmag", "charges": 8, "count": [ 1, 3 ], "prob": 100 }, { "item": "9mm", "charges": [ 10, 35 ], "prob": 65 }, { "item": "9mmP2", "charges": [ 8, 15 ], "prob": 25 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_danuvia" }, { "item": "rsw_danuviamag", "charges": 33, "count": [ 1, 2 ], "prob": 100 }, { "item": "9mm", "charges": [ 10, 35 ], "prob": 65 }, { "item": "9mmP2", "charges": [ 8, 15 ], "prob": 25 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_fkbrno" }, { "item": "rsw_fkbrno_mag", "charges": 15, "count": [ 1, 3 ], "prob": 100 }, { "item": "rsw_7mmbrno_round", "charges": [ 10, 35 ], "prob": 65 }, { "item": "rsw_7mmbrno_round_hp", "charges": [ 8, 15 ], "prob": 25 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_dardick_revolver" }, { "item": "rsw_dardick_tround", "charges": [ 7, 25 ], "prob": 100 }, { "item": "rsw_dardick_riflekit", "prob": 50 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_toz81" }, { "item": "545", "charges": [ 5, 25 ], "prob": 100 }, { "item": "545_ap", "charges": [ 5, 10 ], "prob": 25 } ], "prob": 100 }
+
+
+
+
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rsw_gstore_smg",
+    "subtype": "distribution",
+    "entries": [
+      { "collection": [ { "item": "rsw_mp40" }, { "item": "mp40mag", "charges": 32, "count": [ 1, 2 ], "prob": 95 }, { "item": "9mm", "charges": [ 10, 45 ], "prob": 85 }, { "item": "9mmP", "charges": [ 5, 15 ], "prob": 30 } ], "prob": 100 },
+      { "collection": [ { "item": "amg_reising" }, { "item": "am_reising_mag_a", "charges": 12, "count": [ 1, 2 ], "prob": 50 }, { "item": "am_reising_mag_b", "charges": 20, "count": [ 1, 2 ], "prob": 60 }, { "item": "45_acp", "charges": [ 10, 45 ], "prob": 85 }, { "item": "45_super", "charges": [ 5, 15 ], "prob": 30 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_zb47" }, { "item": "rsw_zb47mag_30", "charges": 32, "count": [ 1, 2 ], "prob": 60 }, { "item": "rsw_zb47mag_72", "charges": 72, "count": [ 1, 2 ], "prob": 60 }, { "item": "9mm", "charges": [ 10, 45 ], "prob": 85 }, { "item": "9mmP", "charges": [ 5, 15 ], "prob": 30 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_mc51k" }, { "item": "g3mag", "charges": 20, "count": [ 1, 2 ], "prob": 65 }, { "item": "g3bigmag", "charges": 50, "count": 1, "prob": 45 }, { "item": "762_51", "charges": [ 10, 45 ], "prob": 85 }, { "item": "308", "charges": [ 5, 15 ], "prob": 30 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_emp44" }, { "item": "mp40mag", "charges": 32, "count": [ 1, 2 ], "prob": 95 }, { "item": "9mm", "charges": [ 10, 45 ], "prob": 85 }, { "item": "9mmP", "charges": [ 5, 15 ], "prob": 30 } ], "prob": 100 }
+
+
+
+
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rsw_gstore_launcher",
+    "subtype": "distribution",
+    "entries": [
+      { "collection": [ { "item": "rsw_am_fliegerfaust" }, { "item": "fliegermag", "charges": 9, "count": [ 1, 3 ], "prob": 100 }, { "item": "ffaust_roc", "charges": [ 10, 45 ], "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rw_srmodel14" }, { "item": "50bmg", "charges": [ 30, 150 ], "prob": 100 }, { "item": "50match", "charges": [ 10, 15 ], "prob": 20 }, { "item": "50ss", "charges": [ 10, 15 ], "prob": 20 }, { "item": "rsw_50mm_exp", "charges": [ 10, 25 ], "prob": 20 }, { "item": "belt50", "prob": 100 } ], "prob": 100 },
+      { "collection": [ { "item": "rsw_m18_recoilless" }, { "item": "m18recoil_shell_he", "charges": [ 5, 15 ], "prob": 100 }, { "item": "m18recoil_shell_heat", "charges": [ 3, 6 ], "prob": 75 }, { "item": "m18recoil_shell_smoke_wp", "charges": [ 2, 4 ], "prob": 75 }, { "item": "m18recoil_shell_canister", "charges": [ 2, 4 ], "prob": 75 }  ], "prob": 100 },
+      { "item": "rsw_panzerfaust_60", "count": [ 2, 5 ], "charges": 1, "prob": 100 },
+      { "collection": [ { "item": "rsw_knee_mortar" }, { "item": "type89_shell", "charges": [ 6, 15 ], "prob": 100 }, { "item": "type89_smoke", "charges": [ 3, 6 ], "prob": 75 }, { "item": "type89_incendiary", "charges": [ 2, 4 ], "prob": 75 }, { "item": "type89_grenade_shell", "charges": [ 1, 4 ], "prob": 75 }  ], "prob": 100 },
+      { "collection": [ { "item": "rsw_m2flame" }, { "item": "rsw_m2tank", "charges": [ 150, 300 ], "prob": 100 }  ], "prob": 100 },
+      { "collection": [ { "item": "rsw_davy_crockett" }, { "item": "crockett_nuke_xm388", "charges": [ 2, 3 ], "prob": 100 }, { "item": "crockett_nuke_practice", "charges": [ 1, 3 ], "prob": 100 }  ], "prob": 100 }
+
+
+
+
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rsw_melee_clothes",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "rsw_1832_footsword", "prob": 100 },
+      { "item": "rsw_type30_bayonet", "prob": 100 },
+      { "item": "rsw_kbar_katana", "prob": 100 },
+      { "item": "rsw_apachegun", "prob": 100 },
+      { "item": "rsw_qsb91", "prob": 100 },
+      { "item": "rsw_gradknife", "prob": 100 },
+      { "item": "rsw_1832_footsword", "prob": 100 },
+      { "item": "rsw_sn42", "prob": 100 },
+      { "item": "rsw_panzerww1", "prob": 100 },
+      { "item": "rsw_brodiehelm", "prob": 100 },
+      { "item": "rsw_ssh", "prob": 100 },
+      { "item": "rsw_m1928sack", "prob": 100 }
+
+
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rsw_grenade",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "rsw_m15_wp_grenade", "prob": 100, "count": [ 2, 5 ] },
+      { "item": "rsw_beano_grenade", "prob": 100, "count": [ 2, 5 ] },
+      { "item": "rsw_type91_grenade", "prob": 100, "count": [ 2, 5 ] },
+      { "item": "rsw_powderkeg", "prob": 100, "count": [ 1, 4 ] },
+      { "item": "rsw_ketchum_grenade", "prob": 100, "count": [ 3, 6 ] }
+
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rsw_gunsafe",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "rsw_gstore_launcher", "prob": 70 },
+      { "group": "rsw_gstore_rifle", "prob": 30 },
+      { "group": "rsw_grenade", "prob": 30 }
+
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rsw_magazines",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "fliegermag", "prob": 100 },
+      { "item": "rsw_apsmag", "prob": 100 },
+      { "item": "rsw__g11mag", "prob": 100 },
+      { "item": "stanag30", "prob": 100 },
+      { "item": "stanag20", "prob": 100 },
+      { "item": "stanag5", "prob": 100 },
+      { "item": "rsw_m1mag_15", "prob": 100 },
+      { "item": "rsw_m1mag_30", "prob": 100 },
+      { "item": "rsw_65mm_clip", "prob": 100 },
+      { "item": "rsw_77mm_clip", "prob": 100 },
+      { "item": "rsw_howamag", "prob": 100 },
+      { "item": "rsw_stgmag30", "prob": 100 },
+      { "item": "rsw_stgmag10", "prob": 100 },
+      { "item": "rem_eightclip", "prob": 100 },
+      { "item": "amg_ema_mag20", "prob": 100 },
+      { "item": "rsw_ar7mag8", "prob": 100 },
+      { "item": "rsw_ar7mag10", "prob": 100 },
+      { "item": "rsw_ar7mag15", "prob": 100 },
+      { "item": "rsw_ringrifle_cylinder8", "prob": 100 },
+      { "item": "rsw_ringrifle_cylinder10", "prob": 100 },
+      { "item": "mp40mag", "prob": 100 },
+      { "item": "am_reising_mag_a", "prob": 100 },
+      { "item": "am_reising_mag_b", "prob": 100 },
+      { "item": "rsw_zb47mag_30", "prob": 100 },
+      { "item": "rsw_zb47mag_72", "prob": 100 },
+      { "item": "g3mag", "prob": 100 },
+      { "item": "g3bigmag", "prob": 100 },
+      { "item": "rsw_kolibrimag", "prob": 100 },
+      { "item": "rem_woodsmag", "prob": 100 },
+      { "item": "rsw_plainsmag", "prob": 100 },
+      { "item": "rsw_paterson_cylinder5", "prob": 100 },
+      { "item": "rsw_hscmag", "prob": 100 },
+      { "item": "rsw_danuviamag", "prob": 100 },
+      { "item": "rsw_fkbrno_mag", "prob": 100 }
+
+
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rsw_ammo",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "2mm_Kolibri", "prob": 100 },
+      { "item": "rsw_566_spear", "prob": 100 },
+      { "item": "rsw_30carbine_ball", "prob": 100 },
+      { "item": "rsw_65mm_arisaka", "prob": 100 },
+      { "item": "rsw_65mm_arisaka_genso", "prob": 50 },
+      { "item": "rsw_77mm_arisaka_ball", "prob": 100 },
+      { "item": "rsw_77mm_arisaka_ap", "prob": 50 },
+      { "item": "rsw_77mm_arisaka_inc", "prob": 25 },
+      { "item": "rsw_77mm_arisaka_exp", "prob": 25 },
+      { "item": "crockett_nuke_xm388", "prob": 5 },
+      { "item": "crockett_nuke_practice", "prob": 5 },
+      { "item": "m18recoil_shell_he", "prob": 35 },
+      { "item": "m18recoil_shell_heat", "prob": 35 },
+      { "item": "m18recoil_shell_smoke_wp", "prob": 35 },
+      { "item": "m18recoil_shell_canister", "prob": 35 },
+      { "item": "type89_shell", "prob": 35 },
+      { "item": "type89_smoke", "prob": 35 },
+      { "item": "type89_incendiary", "prob": 35 },
+      { "item": "rsw_792kurz_ball", "prob": 100 },
+      { "item": "13mmgyrojet_rocket", "prob": 100 },
+      { "item": "rsw_whitworth_bullet", "prob": 100 },
+      { "item": "rsw_7mmbrno_round", "prob": 100 },
+      { "item": "rsw_dardick_tround", "prob": 100 },
+      { "item": "ffaust_roc", "prob": 35 },
+      { "item": "36navy", "prob": 100 },
+      { "item": "44army", "prob": 35 },
+      { "item": "flintlock_ammo", "prob": 35 }
+
+
+
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rsw_gunsmith_parts",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "oxy_powder", "prob": 75 },
+      { "item": "gunpowder", "prob": 50 },
+      { "item": "smpistol_primer", "prob": 100 },
+      { "item": "smrifle_primer", "prob": 50 },
+      { "item": "lgpistol_primer", "prob": 100 },
+      { "item": "lgrifle_primer", "prob": 50 },
+      { "item": "chem_black_powder", "prob": 100 },
+      { "item": "chem_rocket_fuel", "prob": 15 }
+
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rsw_vending_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "rsw_ammo", "prob": 100 },
+      { "group": "vending_ammo", "prob": 35 },
+      { "group": "rsw_magazines", "prob": 100 },
+      { "group": "mags_pistol_common", "prob": 20 },
+      { "group": "mags_rifle_common", "prob": 100 },
+      { "group": "rsw_gstore_rifle", "prob": 20 },
+      { "group": "rsw_gstore_pistol", "prob": 20 },
+      { "group": "rsw_grenade", "prob": 20 },
+      { "group": "rsw_gstore_smg", "prob": 20 }
+
+    ]
+  }
+
+
+
+]

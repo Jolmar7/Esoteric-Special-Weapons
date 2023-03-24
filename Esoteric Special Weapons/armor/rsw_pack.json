@@ -1,0 +1,29 @@
+[
+  
+  {
+    "id": "rsw_m1928sack",
+    "repairs_like": "backpack",
+    "type": "ARMOR",
+    "name": { "str": "M1928 Haversack" },
+    "//": "Depends on if you're getting a cheap school version or something more like a range bag.",
+    "description": "A rucksack made for use with the U.S. Military in 1928. Most famously used in the Second World War.",
+    "weight": "566 g",
+    "volume": "1500 ml",
+    "price": 2900,
+    "price_postapoc": 750,
+    "bashing": 1,
+    "material": [ "cotton", "plastic" ],
+    "symbol": "[",
+    "looks_like": "purse",
+    "color": "green",
+    "covers": [ "torso" ],
+    "coverage": 30,
+    "rigid": false,
+    "encumbrance": 5,
+    "max_encumbrance": 15,
+    "storage": "15 L",
+    "warmth": 2,
+    "material_thickness": 2,
+    "flags": [ "BELTED", "WATER_FRIENDLY" ]
+  }
+]

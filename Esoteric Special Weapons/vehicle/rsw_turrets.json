@@ -1,0 +1,77 @@
+[
+  {
+    "id": "rsw_fliergerfaust_turret",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted fliegerfaust" },
+    "item": "rsw_am_fliegerfaust",
+    "color": "light_gray",
+    "broken_color": "dark_gray",
+    "looks_like": "tow_launcher",
+    "breaks_into": [ { "item": "rsw_am_fliegerfaust", "prob": 100 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ], [ "electronics", 3 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
+    "id": "rsw_crockett_turret",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted M-28 Davy Crockett" },
+    "item": "rsw_davy_crockett",
+    "color": "light_gray",
+    "broken_color": "dark_gray",
+    "looks_like": "tow_launcher",
+    "breaks_into": [ { "item": "rsw_davy_crockett", "prob": 100 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ], [ "electronics", 3 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
+    "id": "rsw_sr14_turret",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted SR.R Model 14" },
+    "item": "rw_srmodel14",
+    "color": "light_gray",
+    "broken_color": "dark_gray",
+    "looks_like": "m249",
+    "breaks_into": [ { "item": "rw_srmodel14", "prob": 100 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ], [ "electronics", 3 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
+    "id": "rsw_m18recoilless_turret",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted M18 recoilless rifle" },
+    "item": "rsw_m18_recoilless",
+    "color": "light_gray",
+    "broken_color": "dark_gray",
+    "looks_like": "tow_launcher",
+    "breaks_into": [ { "item": "rsw_m18_recoilless", "prob": 100 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ], [ "electronics", 3 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
+    "id": "rsw_m2flame_turret",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted M2 Flamethrower" },
+    "item": "rsw_m2flame",
+    "color": "light_gray",
+    "broken_color": "dark_gray",
+    "looks_like": "flamethrower",
+    "breaks_into": [ { "item": "rsw_m2flame", "prob": 100 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ], [ "electronics", 3 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+  
+  {
+    "id": "rsw_white_phosphorus",
+    "type": "field_type",
+    "legacy_enum_id": 39,
+    "intensity_levels": [
+      {
+        "name": "white phosphorous",
+        "color": "white",
+        "transparent": false,
+        "translucency": 0,
+        "effects": [
+          {
+            "effect_id": "rsw_wp_burning",
+            "body_part": "mouth",
+            "intensity": 1,
+            "min_duration": "5 seconds",
+            "max_duration": "20 seconds",
+            "chance_inside_vehicle": 3
+          }
+        ]
+      }
+    ],
+    "decay_amount_factor": 5,
+    "gas_absorption_factor": 15,
+    "percent_spread": 15,
+    "dirty_transparency_cache": true,
+    "has_fume": true,
+    "immunity_data": { "body_part_env_resistance": [ [ "mouth", 15 ] ] },
+    "priority": 8,
+    "half_life": "6 minutes",
+    "phase": "gas",
+    "display_items": false,
+    "display_field": true,
+    "looks_like": "fd_smoke"
+  },
+  {
+    "type": "effect_type",
+    "id": "rsw_wp_burning",
+    "name": [ "White phosphorus" ],
+    "desc": [ "You've been exposed to white phosphorus!" ],
+    "apply_message": "You inhale a lungful of white phosphorus gas.",
+    "rating": "bad",
+    "miss_messages": [ [ "Your body burns froms the white phosphorus.", 2 ] ],
+    "harmful_cough": true,
+    "max_duration": "10 s",
+    "base_mods": { "per_mod": [ -2 ], "hurt_min": [ 1 ], "hurt_max": [ 2 ], "hurt_chance": [ 1 ], "hurt_chance_bot": [ 10 ], "cough_chance": [ 25 ], "pain_min": [ 1 ] },
+    "show_in_info": true
+  }
+]
